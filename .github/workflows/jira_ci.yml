@@ -12,7 +12,7 @@ on:
 
 jobs:
   server:
-    uses: pycontribs/jira/.github/workflows/jira_server_ci.yml #@main
+    uses: pycontribs/jira/.github/workflows/jira_server_ci.yml@main
 
   cloud:
     needs: server
